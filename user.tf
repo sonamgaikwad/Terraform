@@ -1,9 +1,8 @@
 resource "aws_iam_user" "tfuser" {
-    name = "batch25"
-    path = "/"
+  name = "batch38"
+  path = "/"
 
-    tags = {
-      tag-key= "intern"
-    }
-  
+  tags = {
+    tag-key = "intern"
+  }
 }
