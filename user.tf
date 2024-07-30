@@ -1,5 +1,5 @@
-resource "aws_iam_user" "user1" {
-  name = "batch38"
+resource "aws_iam_user" "lb" {
+  name = "loadbalancer"
   path = "/"
 
   tags = {
